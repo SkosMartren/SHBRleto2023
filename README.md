@@ -1,6 +1,6 @@
 https://jsonformatter.org/json-viewer --> ViewExplorerJson.png
 
-	object		{4}  
+object		{4}  
 openapi	:	3.0.1  
 	info		{2}  
 title	:	Yandex Lavka  
@@ -17,7 +17,16 @@ version	:	1.0
 	components		{1}  
 	schemas		{16}
 
- 
+
+Задание 1. REST API
+
+Задание 2. Рейтинг курьеров
+
+Задание 3. Rate limiter
+
+Задание 4. Распределение заказов
+
+
  # ШБР Лето 2023. Вступительное задание
 
 Вы устроились в Яндекс, и вам нужно запустить сервис Яндекс Лавка.
