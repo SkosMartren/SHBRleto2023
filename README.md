@@ -28,8 +28,38 @@ https://jsonformatter.org/json-viewer --> ViewExplorerJson.png
 			components		{1}
 				schemas		{16}
 
-Задание 1. REST API
+Задание 1. REST API  
 
+POST /couriers
+GET /couriers  
+
+	/couriers		{2}  
+		get		{4}   
+		post		{4}  
+
+POST /orders
+GET /orders
+
+	/orders		{2}
+		get		{4}
+		post		{4}
+
+GET /couriers/{courier_id}
+
+	/couriers/{courier_id}		{1}
+		get		{4}
+
+
+GET /orders/{order_id}
+
+	/orders/{order_id}		{1}
+		get		{4}
+
+POST /orders/complete
+
+	/orders/complete		{1}
+		post		{4}
+   
 Задание 2. Рейтинг курьеров
 
 Задание 3. Rate limiter
