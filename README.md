@@ -1,3 +1,5 @@
+https://jsonformatter.org/json-viewer --> ViewExplorerJson.png
+ 
  # ШБР Лето 2023. Вступительное задание
 
 Вы устроились в Яндекс, и вам нужно запустить сервис Яндекс Лавка.
