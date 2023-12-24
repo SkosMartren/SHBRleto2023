@@ -62,6 +62,9 @@ POST /orders/complete
    
 Задание 2. Рейтинг курьеров
 
+	/couriers/meta-info/{courier_id}		{1}
+		get		{4}
+   
 Задание 3. Rate limiter
 
 Задание 4. Распределение заказов
