@@ -1,4 +1,22 @@
 https://jsonformatter.org/json-viewer --> ViewExplorerJson.png
+
+	object		{4}  
+openapi	:	3.0.1  
+	info		{2}  
+title	:	Yandex Lavka  
+version	:	1.0  
+	paths		{8}  
+	/orders		{2}  
+	/orders/complete		{1}  
+	/orders/assign		{1}  
+	/couriers/assignments		{1}  
+	/couriers		{2}  
+	/orders/{order_id}		{1}  
+	/couriers/{courier_id}		{1}  
+	/couriers/meta-info/{courier_id}		{1}  
+	components		{1}  
+	schemas		{16}
+
  
  # ШБР Лето 2023. Вступительное задание
 
