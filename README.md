@@ -69,7 +69,16 @@ POST /orders/complete
 
 Задание 4. Распределение заказов
 
+POST /orders/assign
 
+	/orders/assign		{1}
+		post		{6}
+
+GET /couriers/assignments
+
+	/couriers/assignments		{1}
+		get		{5}
+ 
  # ШБР Лето 2023. Вступительное задание
 
 Вы устроились в Яндекс, и вам нужно запустить сервис Яндекс Лавка.
