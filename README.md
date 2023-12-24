@@ -30,14 +30,14 @@ https://jsonformatter.org/json-viewer --> ViewExplorerJson.png
 
 Задание 1. REST API  
 
-POST /couriers
+POST /couriers  
 GET /couriers  
 
 	/couriers		{2}  
 		get		{4}   
 		post		{4}  
 
-POST /orders
+POST /orders  
 GET /orders
 
 	/orders		{2}
