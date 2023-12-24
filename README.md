@@ -1,22 +1,48 @@
 https://jsonformatter.org/json-viewer --> ViewExplorerJson.png
 
-object		{4}  
-openapi	:	3.0.1  
-	info		{2}  
-title	:	Yandex Lavka  
-version	:	1.0  
-	paths		{8}  
-	/orders		{2}  
-	/orders/complete		{1}  
-	/orders/assign		{1}  
-	/couriers/assignments		{1}  
-	/couriers		{2}  
-	/orders/{order_id}		{1}  
-	/couriers/{courier_id}		{1}  
-	/couriers/meta-info/{courier_id}		{1}  
-	components		{1}  
-	schemas		{16}
+	object		{4}  
+	openapi	:	3.0.1  
+		info		{2}  
+	title	:	Yandex Lavka  
+	version	:	1.0  
+		paths		{8}  
+		/orders		{2}  
+		/orders/complete		{1}  
+		/orders/assign		{1}  
+		/couriers/assignments		{1}  
+		/couriers		{2}  
+		/orders/{order_id}		{1}  
+		/couriers/{courier_id}		{1}  
+		/couriers/meta-info/{courier_id}		{1}  
+		components		{1}  
+		schemas		{16}
 
+	object		{4}
+	openapi	:	3.0.1
+		info		{2}
+	title	:	Yandex Lavka
+	version	:	1.0
+		paths		{8}
+			/orders		{2}
+				get		{4}
+				post		{4}
+			/orders/complete		{1}
+				post		{4}
+			/orders/assign		{1}
+				post		{6}
+			/couriers/assignments		{1}
+				get		{5}
+			/couriers		{2}
+				get		{4}
+				post		{4}
+			/orders/{order_id}		{1}
+				get		{4}
+			/couriers/{courier_id}		{1}
+				get		{4}
+			/couriers/meta-info/{courier_id}		{1}
+				get		{4}
+			components		{1}
+				schemas		{16}
 
 Задание 1. REST API
 
